@@ -1,0 +1,17 @@
+l=[1,2]
+l.extend([3,4,5])
+print(l)
+l.pop()
+print(l)
+s="maaz"
+abc=list(s)
+print(abc)
+s="".join(abc)
+print(s)
+lists=["abc","def","ghi","jkl"]
+x="nn".join(lists)
+print(x)
+T=tuple(l)
+print(T)
+T=list(T)
+print(T)
